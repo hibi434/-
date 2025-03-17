@@ -1,0 +1,37 @@
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.sika{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    animation: m1 4s infinite;
+}
+@keyframes m1{
+    0%,30%{
+        .sika{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+        }
+    }
+    40%,70%{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border-radius: 50%;
+    }
+    80%,1000%{
+        .sika{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+a[href^=web]{
+    color: red;
+}
+a[href^=desgin]{
+    color: blue;
+}
+a{
+    color: black;
+}
